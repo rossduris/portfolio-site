@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className=" flex w-full bg-white flex-col">
       <div className="flex w-full justify-center">
-        <div className="p-10 min-h-[350px]  w-full py-0 flex items-left flex-col justify-center gap-10 mt-0">
+        <div className="p-10 min-h-[350px]  w-full py-0 flex items-left flex-col justify-center gap-10 mt-0 text-gray-600">
           <h2 className="sm:text-3xl text-xl pt-4">Ross Duris</h2>
           <p className="text-xs leading-7 pr-10 hidden sm:block">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
