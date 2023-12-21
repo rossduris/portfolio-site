@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" flex w-full bg-white p-10 pb-24 flex-col">
+    <div className=" flex w-full bg-white flex-col">
       <div className="flex w-full justify-center">
-        <div className=" w-[380px] py-0 flex items-left flex-col justify-center gap-10 mt-0">
+        <div className="p-10 min-h-[350px]  w-full py-0 flex items-left flex-col justify-center gap-10 mt-0">
           <h2 className="sm:text-3xl text-xl pt-4">Ross Duris</h2>
           <p className="text-xs leading-7 pr-10 hidden sm:block">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
@@ -14,7 +14,7 @@ const Hero = () => {
           </p>
           <h3>Frontend Web Developer</h3>
         </div>
-        <div className="bg-gradient-to-tr from-[#cdcdcd] to-[#fff] w-[380px] h-[380px]"></div>
+        <div className="p-10 min-h-[350px] bg-gradient-to-tr from-[#cdcdcd] to-[#fff] w-full"></div>
       </div>
     </div>
   );
