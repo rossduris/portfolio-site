@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex min-h-screen flex-col justify-center px-40 `}
+        className={`${inter.className} flex min-h-screen flex-col justify-center sm:px-40 `}
       >
         <nav className="flex justify-around bg-[#f5f5f5] p-2 text-xs text-gray-800 font-thin">
           <div className="w-[60%] flex justify-around">
