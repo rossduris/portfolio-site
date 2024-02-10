@@ -44,3 +44,42 @@ body {
   justify-content: center;
   width: 100%;
 }
+
+.projects > div {
+  border: 1px solid #eee;
+  padding-top: 20px;
+  background-color: gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  /* box-shadow: 0 2px 6px #999; */
+  border-bottom: 1px solid #eee;
+}
+
+.projects img {
+  border: 1px solid #eee;
+  border-left: 0;
+  border-right: 0;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  height: 280px;
+  background-position: top;
+}
+
+.projects button {
+  background-color: rgb(43, 137, 237);
+  color: white;
+}
+
+.projects p {
+  padding: 10px;
+}
+
+.projects h2 {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  line-height: 34px;
+}

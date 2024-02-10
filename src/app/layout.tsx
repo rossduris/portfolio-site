@@ -16,10 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} flex min-h-screen flex-col justify-center sm:px-40 `}
-      >
-        <nav className="flex justify-around bg-[#f5f5f5] p-2 text-xs text-gray-800 font-thin">
+      <body className={`${inter.className} flex flex-col `}>
+        <nav className="flex justify-around bg-[#f5f5f5] p-2 text-xs text-gray-800 ">
           <div className="w-[60%] flex justify-around">
             <a href="/">Home</a>
             <a href="/about">About</a>
@@ -29,6 +27,7 @@ export default function RootLayout({
           <div>GitHub</div>
         </nav>
         {children}
+        <footer className=" w-full flex p-10">Footer</footer>
       </body>
     </html>
   );
