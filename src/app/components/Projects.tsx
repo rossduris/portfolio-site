@@ -19,11 +19,11 @@ const Projects = () => {
           />
 
           <p>
-            E-commerce platform engineered with NextJS, showcasing dynamic
+            {`E-commerce platform engineered with NextJS, showcasing dynamic
             server-side rendering for optimized performance. Integrated Printify
             API for product fulfillment and Stripe for secure payment
             processing. Features custom NextJS page routing for a seamless
-            shopping experience.
+            shopping experience.`}
           </p>
           <Link
             rel="noopener noreferrer"
@@ -46,10 +46,10 @@ const Projects = () => {
           />
 
           <p>
-            Interactive travel application built with React, offering real-time
+            {`Interactive travel application built with React, offering real-time
             weather data and navigational features. Utilizes React's
             component-based architecture for a responsive user interface,
-            integrating maps and external weather APIs for live trip updates.
+            integrating maps and external weather APIs for live trip updates.`}
           </p>
           <Link
             rel="noopener noreferrer"
@@ -65,10 +65,10 @@ const Projects = () => {
         <div>
           <h2>HTML & CSS Code Challenge</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+            {` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
             veritatis eos non velit obcaecati soluta voluptas quisquam quaerat
             exercitationem, dicta alias beatae. Impedit nam nostrum, inventore
-            earum consequatur natus voluptatum.
+            earum consequatur natus voluptatum.`}
           </p>
           <Link
             rel="noopener noreferrer"
