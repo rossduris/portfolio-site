@@ -19,10 +19,11 @@ const Projects = () => {
           />
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-            veritatis eos non velit obcaecati soluta voluptas quisquam quaerat
-            exercitationem, dicta alias beatae. Impedit nam nostrum, inventore
-            earum consequatur natus voluptatum.
+            E-commerce platform engineered with NextJS, showcasing dynamic
+            server-side rendering for optimized performance. Integrated Printify
+            API for product fulfillment and Stripe for secure payment
+            processing. Features custom NextJS page routing for a seamless
+            shopping experience.
           </p>
           <Link
             rel="noopener noreferrer"
@@ -45,10 +46,10 @@ const Projects = () => {
           />
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-            veritatis eos non velit obcaecati soluta voluptas quisquam quaerat
-            exercitationem, dicta alias beatae. Impedit nam nostrum, inventore
-            earum consequatur natus voluptatum.
+            Interactive travel application built with React, offering real-time
+            weather data and navigational features. Utilizes React's
+            component-based architecture for a responsive user interface,
+            integrating maps and external weather APIs for live trip updates.
           </p>
           <Link
             rel="noopener noreferrer"
@@ -97,6 +98,48 @@ const Projects = () => {
           <Link href="https://domain-search-tool.vercel.app/">
             <button className=" border border-gray-100  rounded-lg m-4 p-4 my-2 font-medium text-black">
               Domain Search
+            </button>
+          </Link>
+        </div>
+        <div>
+          <h2>Chat GPT Stream App</h2>
+          {/* <Image
+            alt="Chat GPT Stream App"
+            src="/domain-search.png"
+            width={300}
+            height={200}
+          /> */}
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+            veritatis eos non velit obcaecati soluta voluptas quisquam quaerat
+            exercitationem, dicta alias beatae. Impedit nam nostrum, inventore
+            earum consequatur natus voluptatum.
+          </p>
+          <Link href="https://next-gpt-stream.vercel.app/">
+            <button className=" border border-gray-100  rounded-lg m-4 p-4 my-2 font-medium text-black">
+              Chat GPT Stream App
+            </button>
+          </Link>
+        </div>
+        <div>
+          <h2>Little Lemon Resturant</h2>
+          {/* <Image
+            alt="Chat GPT Stream App"
+            src="/domain-search.png"
+            width={300}
+            height={200}
+          /> */}
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
+            veritatis eos non velit obcaecati soluta voluptas quisquam quaerat
+            exercitationem, dicta alias beatae. Impedit nam nostrum, inventore
+            earum consequatur natus voluptatum.
+          </p>
+          <Link href="https://next-gpt-stream.vercel.app/">
+            <button className=" border border-gray-100  rounded-lg m-4 p-4 my-2 font-medium text-black">
+              Chat GPT Stream App
             </button>
           </Link>
         </div>

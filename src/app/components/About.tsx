@@ -3,7 +3,7 @@ import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-10 h-80 ">
+    <div className="flex flex-col gap-10 ">
       <div className="flex flex-col gap-10 bg-white border-t border-gray-100 justify-start text-center">
         <h2 className="text-gray-300 text-center">Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-4 text-2xl text-[#cfcfcf] gap-10 w-full  skill justify-center  items-start">

@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <main className=" ">
+    <main className="flex flex-col  items-center overflow-hidden">
       <Hero />
       <Projects />
       <About />
